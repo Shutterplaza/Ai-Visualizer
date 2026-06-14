@@ -1,6 +1,16 @@
 {
   "version": 2,
-  "rewrites": [
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "api/visualize.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
     {
       "src": "/api/visualize",
       "dest": "/api/visualize.js"
