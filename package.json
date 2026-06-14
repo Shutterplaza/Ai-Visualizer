@@ -1,0 +1,17 @@
+{
+  "name": "shutter-plaza-ai-visualizer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@vercel/node": "latest",
+    "express": "^4.18.3",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^6.10.0"
+  },
+  "devDependencies": {}
+}
